@@ -1,254 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portefolio</title>
-    <link rel="stylesheet" href="./CSS/pf.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OUWINE Yao Emmanuel — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header class="head" id="Accueil">
-        <div class="logo">
-            <img src="./Images/MD.png" alt="" srcset="" width="90px" height="80px">
-            <h1>MDL</h1>
-        </div>
-        <div class="nav">
-            <a href="#Accueil">Accueil</a>
-            <a href="#A propos">A propos</a>
-            <a href="#Nos_Services">Nos Services</a>
-            <a href="#Nos_Projets">Nos Projets</a>
-            <a href="#Contactez_nous">Contactez-nous</a>
-        </div>
-        <div class="M">
-            <button class="o">Votre Projet</button>
-        </div>
-    </header>
 
-    <section id="Accueil" class="A">
-        <div>
-            <div class="SF">
-                <p>Cartographe, Developpeur Web et Graphiste</p>
-            </div>
-            <div class="B">
-               <h2>Bienvenue chez,</h2>
-            </div>
-            <div class="Text">
-               <h2>Manou DevLab</h2>
-            </div>
-               <p class="mot">Pour vous, nous concevons des sites, des applications et des affiches graphiques <br> d'une qualité et d'une efficacité inégalable.</p>
-            <div class="ton">
-                <button class="CP"><a href="./CV/INDEX.html" target="blank">Mon CV</a></button>
-                <button class="CP">Nos Projets</button>
-            </div>
-        </div>
-        <div class="ig">
-            <img src="./Images/a.png" alt="" width="200px" height="170px">
-        </div>
-    </section>
+  <!-- CURSEUR -->
+  <div class="cursor" id="cursor"></div>
 
-    <section id="A propos" class="Q">
-        <div class="W">
-            <h2>A propos</h2>
-        </div>
-        <div class="W">
-            <p>
-                Notre entreprise est spécialisée dans la cartographie, le développement web et le graphisme. Nous <br> concevons des solutions innovantes qui allient précision, créativité et performance.
-Grâce à notre expertise <br> en systèmes d’information géographique, nous réalisons des cartes professionnelles et interactives adaptées <br> aux besoins des organisations.
+  <!-- ── NAV ── -->
+  <nav>
+    <div class="nav-logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-Nous développons également des sites web modernes, rapides et sécurisés, <br> conçus pour offrir la meilleure expérience utilisateur.
-Enfin, notre service de graphisme crée des identités <br> visuelles uniques, logos, affiches et supports de communication qui renforcent votre image de marque.
-<br><b>Notre mission : transformer vos idées en solutions visuelles et numériques efficaces.</b>
-            </p>
-        </div>
-        <div class="chiffres">
-            <div>
-                <p class="nbre"><b>+10</b></p>
-                <p>Projets Réalisés</p>
-            </div>
-            <div>
-                <p class="nbre"><b>+1</b></p>
-                <p>Année d'Expérience</p>
-            </div>
-            <div>
-                <p class="nbre"><b>+20</b></p>
-                <p>Clients Satisfait</p>
-            </div>
-        </div>
-    </section>
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-tag">Géographe · Développeur · Cartographe</p>
+      <h1 class="hero-name">OUWINE<br>Yao <span>Emmanuel</span></h1>
+      <p class="hero-desc">
+        Étudiant en géographie, en formation en développement web et mobile.
+        Je combine analyse spatiale, cartographie et technologies du numérique
+        pour créer des solutions innovantes au service du territoire.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn-outline">Me contacter</a>
+      </div>
+    </div>
 
-    <section id="Nos_Services">
-        <div class="NS">
-            <div>
-               <h2>Nos Services</h2>
-            </div>
-            <div>
-                <p>
-                  Nous transformons vos idées en solution concrêtes! Nous vous accompagnons dans la création d'appllications
-                    web et mobiles, de designs attractifs <br> et de projets numeriques performants, conçus pour captiver vos utilisateurs.
-                </p>
-            </div>
-        </div>
-        <section class="composante">
-            <div>
-                <img src="./Images/star-stick.svg" alt="" srcset="" width="50px" height="50px">
-                <h4>Design</h4>
-                <p>Nous sommes spécialisé dans le design UI/UX pour le web et le mobile, en créant des interfaces attrayantes, intuitives et centrées sur l'utilisateur.</p>
-            </div>
-            <div>
-                <img src="./Images/circles.svg" alt="" srcset="" width="50px" height="50px">
-                <h4>Developpement web</h4>
-                <p>Nous concevons et developpons des sites web performants et adaptés aux besoins de nos utilisateurs.</p>
-            </div>
-            <div>
-                <img src="./Images/search.svg" alt="" srcset="" width="50px" height="50px">
-                <h4>Developpement mobile</h4>
-                <p>Nous créons des applications mobiles fluides et intuitives, pour android et IOS, répondant aux exigences modernes.</p>
-            </div>
-            <div>
-                <img src="./Images/T.png" alt="carte" width="50px" height="50px">
-                <h4>cartographie</h4>
-                <P>Nous concevons des cartes pour representer de mani_ère graphique vos donnée spatiale</P>
-            </div>
-        </section>
-    </section>
+   
 
-    <section id="Nos_Competences" class="competences">
-        <div>
-            <h2>Nos Compétences</h2>
-        </div>
-        <div>
-            <p>Voici un aperçu de nos compétences techniques et créatives, acquises au fil de nos projets en développement web, mobile, design digital et cartographie</p>
-        </div>
-        <div class="percent">
-            <div>
-                <div>
-                    <h5>Developpement Web</h5>
-                    <progress value="30" max="100">30%</progress>
-                    <b>30%</b>
-                </div>
-                <div>
-                    <h5>Dévéloppement mobile</h5>
-                    <progress value="30" max="100">30%</progress>
-                    <b>30%</b>
-                </div>
-            </div>
+  </section>
 
-            <div>
-                <div>
-                    <h5>Design Graphique</h5>
-                    <progress value="50" max="100">50%</progress>
-                    <b>50%</b>
-                </div>
-                <div>
-                    <h5>Cartographie</h5>
-                    <progress value="65" max="100">65%</progress>
-                    <b>65%</b>
-                </div>
-            </div>
-        </div>           
-    </section>
-
-    <section class="projects" id="Nos_Projets">
-       <h2>Nos Projets</h2>
-       <p class="subtitle">
-        Découvrez quelques-uns de nos projets récents, où design, technologie et créativité 
-        se rencontrent pour donner vie à des expériences digitales uniques.
-       </p>
-
-      <div class="projects-grid">
-
-        <!-- Carte -->
-        <div class="project-card">
-            <img src="./Images/autre.png" alt="Plateforme E-learning" width="60px" height="40px">
-            <div class="project-info">
-                <h3>Dévéloppement Web et Mobile</h3>
-                <p>Design Web / Développement Web</p>
-            </div>
-            <span class="arrow">↗</span>
-        </div>
-
-        <div class="project-card">
-            <img src="./Images/10 Manches slam 26 OCTOBRE.png" alt="Travel App" width="60px" height="40px">
-            <div class="project-info">
-                <h3>Graphisme</h3>
-                <p>Développement Mobile / App Design</p>
-            </div>
-            <span class="arrow">↗</span>
-        </div>
-
-        <div class="project-card">
-            <img src="./Images/RDSK.png" alt="Landing Page">
-            <div class="project-info">
-                <h3>Design</h3>
-                <p>Web Design</p>
-            </div>
-            <span class="arrow">↗</span>
+  <!-- ── À PROPOS ── -->
+  <section id="about">
+    <div class="about-grid">
+      <div>
+        <p class="section-label">À propos</p>
+        <div class="about-text">
+          <p>
+            Étudiant en géographie avec une passion pour les technologies numériques,
+            je construis un profil pluridisciplinaire qui me permet d'aborder les défis
+            du développement sous un angle unique : celui du territoire et de l'espace.
+          </p>
+          <p>
+            Ma formation en développement web et mobile complète ma base académique
+            en géographie, en cartographie et en gestion de données terrain, me donnant
+            les outils pour concevoir des applications à fort impact géospatial.
+          </p>
+          <p>
+            Je suis également sensible au design graphique, ce qui me permet de produire
+            des livrables visuels soignés, des cartes interactives aux interfaces utilisateur.
+          </p>
         </div>
       </div>
-    </section>
-
-    <section class="temoignage">
-        <h2>Témoignages</h2>
-        <div class="tem">
-            <span class="Bou"><img src="./Images/left.svg" alt="" width="50px" height="50px"></span>
-            <p>Les designs de Emma DevLab sont à la fois visuellement captivants et très efficaces. Elle a transformé notre site web, <br> améliorant l’engagement des utilisateurs et les conversions. Leurs sens du détail et son approche créative sont remarquables. <br> Je la recommande vivement !”</p>
-            <span class="Bou"><img src="./Images/right.svg" alt="" width="50px" height="50px"></span>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Domaines de compétence</span>
         </div>
-        <div class="auter">
-            <img src="./Images/le-projecteur-de-scene-illumine-le-microphone-a-condensateur-chrome-brillant-genere-par-l-ia.jpg" alt="" width="50px" height="50px" class="ph">
-            <p><b>LAOUGNAMISSE Rodrigue</b>/ Fondateur de CIBPL</p>
+        <div class="stat-card">
+          <span class="stat-num">GIS</span>
+          <span class="stat-label">Systèmes d'information géographique</span>
         </div>
-    </section>
+        <div class="stat-card">
+          <span class="stat-num">Web</span>
+          <span class="stat-label">Développement web & mobile</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">Data</span>
+          <span class="stat-label">Collecte & analyse terrain</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="contact" id="Contactez_nous">
-        <div>
-            <div class="con">
-               <h2>Contactez-nous</h2>
-               <p> Vous avez une question ou un projet en tête ? Nous serons ravi d'en <br> discuter avec vous. Échangeons nos idées et créons ensemble <br> quelque chose d'exceptionnel.</p>
-           </div>
-           <div class="num">
-               <img src="./Images/telephone-receiver-material-svgrepo-com.svg" alt="" srcset="" width="60px" height="20px">
-               <p>+228 91 43 81 02</p>
+  <!-- ── COMPÉTENCES ── -->
+  <section id="skills" class="skills-bg">
+    <p class="section-label ">Compétences</p>
+    <h2 class="section-title">Ce que je <em>maîtrise</em></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card ">
+        <span class="skill-icon">🗺️</span>
+        <h3 class="skill-name">Cartographie</h3>
+        <p class="skill-desc">Production de cartes thématiques, systèmes d'information géographique, analyse spatiale et représentation visuelle des données géo-référencées.</p>
+        <div class="skill-tags">
+          <span class="tag">QGIS</span>
+          <span class="tag">Cartographie thématique</span>
+          <span class="tag">Géoréférencement</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">💻</span>
+        <h3 class="skill-name">Développement Web</h3>
+        <p class="skill-desc">Conception et développement d'applications web modernes et réactives, de la mise en page à la logique serveur, avec une attention à l'expérience utilisateur.</p>
+        <div class="skill-tags">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Laravel</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📱</span>
+        <h3 class="skill-name">Développement Mobile</h3>
+        <p class="skill-desc">Création d'applications mobiles cross-platform alliant fonctionnalités géospatiales et interface intuitive pour les usages terrain et grand public.</p>
+        <div class="skill-tags">
+          <span class="tag">Flutter</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🎨</span>
+        <h3 class="skill-name">Graphisme</h3>
+        <p class="skill-desc">Conception visuelle de documents, affiches, infographies et éléments d'interface pour des communications claires et esthétiquement impactantes.</p>
+        <div class="skill-tags">
+          <span class="tag">Canva</span>
+          <span class="tag">Photoshop</span>
+          <span class="tag">Infographie</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📊</span>
+        <h3 class="skill-name">Collecte de Données</h3>
+        <p class="skill-desc">Organisation et mise en œuvre de missions de collecte de données terrain, utilisation d'outils numériques de saisie et de gestion de la qualité des données.</p>
+        <div class="skill-tags">
+          <span class="tag">KoboToolbox</span>     
+          <span class="tag">GPS</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📋</span>
+        <h3 class="skill-name">Suivi d'Activités</h3>
+        <p class="skill-desc">Planification, suivi et évaluation d'activités de projet et reporting pour mesurer l'avancement et l'impact des interventions.</p>
+        <div class="skill-tags">
+          <span class="tag">Reporting</span>
+          <span class="tag">Indicateurs</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJETS ── -->
+  <section id="projects">
+    <h2 class="section-title">Réalisations, <em>Travaux</em></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3 class="project-title">Cartographie de terrain</h3>
+        <p class="project-desc">Levé, traitement et mise en forme cartographique de données géospatiales collectées en milieu urbain et rural, avec production de cartes thématiques SIG.</p>
+        <span class="project-type">Cartographie · SIG</span>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Collecte de données mobiles</h3>
+        <p class="project-desc">Mise en place d'un dispositif de collecte de données sur le terrain via formulaires numériques géolocalisés, avec synchronisation et visualisation des résultats.</p>
+        <span class="project-type">Collecte · Mobile</span>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Dashboard de suivi de projet</h3>
+        <p class="project-desc">Conception d'un tableau de bord interactif pour le suivi d'activités, intégrant indicateurs clés de performance, graphiques d'avancement et rapports automatisés.</p>
+        <span class="project-type">Suivi</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="contact-bg">
+    <div class="contact-grid">
+      <div>
+        <p class="section-label ">Contact</p>
+        <h2 class="section-title">Travaillons <em>ensemble</em></h2>
+        <p class="contact-text">
+          Disponible pour des projets académiques, des collaborations professionnelles,
+          des missions de terrain ou des opportunités de stage. N'hésitez pas à me contacter.
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-item-icon">📍</span>
+            <div>
+              <span class="contact-item-label">Localisation</span>
+              <span class="contact-item-val">Kara, Togo</span>
             </div>
-            <div class="mail">
-               <img src="./Images/mail-svgrepo-com.svg" alt="" srcset="" width="60px" height="20px">
-               <a href="mailto:emmanuelouwineyao7@gmail.com">emmanuelouwineyao7@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item-icon">🎓</span>
+            <div>
+              <span class="contact-item-label">Formation</span>
+              <span class="contact-item-val">Géographie · Développement Web & Mobile</span>
             </div>
-            <div class="location">
-                <img src="./Images/location-pin-alt-1-svgrepo-com.svg" alt="" srcset="" width="60px" height="20px">
-                <p>Kara, TOGO</p>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item-icon">🌍</span>
+            <div>
+              <span class="contact-item-label">Disponibilité</span>
+              <span class="contact-item-val">Stage, Projets, Collaboration</span>
             </div>
+          </div>
         </div>
-        <div class="form">
-            <input type="text" placeholder="Votre noms">
-            <input type="Mail" placeholder="Votre mail">
-            <input type="text" placeholder="Numero de Téléphone">
-            <textarea name="Votre Text" id="" placeholder="Votre message"></textarea>
-            <button class="bu">Envoyer</button>
+      </div>
+
+      <form class="" action="" method="post" id="contact-form">
+        <div class="form-group">
+          <label class="form-label">Nom complet</label>
+          <input type="text" id="from_name" class="form-input" name="name" placeholder="Votre nom">
         </div>
-    </section>
-
-    <footer class="fin">
-        <div class="nav">
-            <a href="#A propos">A propos</a>
-            <a href="#Nos_Services">Nos Services</a>
-            <h2>Manou DevLab</h2>
-            <a href="#Nos_Projets">Nos Projets</a>
-            <a href="#Contactez_nous">Contactez_nous</a>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input type="email" id="from_email" name="email" class="form-input" placeholder="votre@email.com">
         </div>
-        <p> Suivez nous sur les réseaux sociaux</p>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Votre message..."></textarea>
+        </div>
+        <button class="btn-primary" id="send-btn" onclick="sendEmail()">Envoyer le message</button>
+        <p id="form-status" style="margin-top:1rem; font-family:'Space Mono',monospace; font-size:0.75rem; display:none;"></p>
+      </form>
 
-        <img src="./Images/linkedin-161-svgrepo-com.svg" alt="" srcset="" width="10px" height="10px">
-        <img src="./Images/facebook-176-svgrepo-com.svg" alt="" srcset="" width="10px" height="10px">
-        <img src="./Images/instagram-167-svgrepo-com.svg" alt="" srcset="" width="10px" height="10px">
-        <img src="./Images/twitter-154-svgrepo-com.svg" alt="" srcset="" width="10px" height="10px">
-    </footer>
+      <div class="contact-item">
+  <div>
+    <span class="contact-item-label">WhatsApp</span>
+    <a href="https://wa.me/22891438102" target="_blank" class="whatsapp-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Envoyer un message
+    </a>
+  </div>
+</div>
+    </div>
+  </section>
 
+  <!-- ── FOOTER ── -->
+  <footer>
+    <ul class="footer-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </footer>
 
+  <!-- Script -->
+  <script src="./JS/script.js"></script>
 
-
-
-    
-    <script src="./JS/Pf.js"></script>
 </body>
 </html>
